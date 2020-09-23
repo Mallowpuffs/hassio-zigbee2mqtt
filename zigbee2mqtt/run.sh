@@ -45,3 +45,4 @@ $SOCAT_EXEC $CONFIG_PATH
 
 # RUN zigbee2mqtt
 ZIGBEE2MQTT_DATA="$DATA_PATH" pm2-runtime start npm -- start
+
